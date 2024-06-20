@@ -1,0 +1,13 @@
+in the browser
+    ->console tab
+    >console.log(hello world)
+    >first=10
+    >second=20
+
+    >first + second
+    >30
+
+    >first * second
+    >300
+
+    all the c language operators are applicablein java script

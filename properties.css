@@ -1,0 +1,84 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.today-item{
+    background-color: rgb(134, 19, 241);
+    color: #06fafa;
+
+    margin-bottom: 5px; 
+
+    padding: 5px;
+
+    border: 5px double;
+    color: rgb(184, 250, 4);
+    /*solid dotted dashed double
+
+    border-style: groove;*/
+    /*inset outset ridge groove*/
+
+    border-radius: 10px; /* this is for corner curve*/
+}
+#four{
+    border-color: rgb(255, 0, 0);
+    height: 50px;
+}
+#text-first{
+
+    color: rgb(255, 0, 204);
+    font-style: oblique;
+    font-weight: bold;
+}
+#text-second{
+
+    color: rgb(0, 255, 183);
+    font-style: oblique;
+    text-decoration: underline;
+
+}
+
+.yesterday-item {
+    background-color: darkgoldenrod;
+
+    margin-bottom: 30px;
+
+    padding: 10px;
+
+    border: 10px double;
+    
+
+    border-top-left-radius: 20px;
+    color: chartreuse;
+
+    border-bottom-right-radius: 20px;
+
+    
+}
+
+#text-firsto{
+   font-weight: bold;
+   font-style: oblique;
+   color: black;
+   text-decoration: line-through;
+}
+
+#text-firstoo{
+    font-weight: bold;
+   font-style: italic;
+   color: rgb(246, 7, 7);
+   text-decoration: line-through;
+}
+#text-firstooo{
+    font-weight: bold;
+    font-style: inherit;
+    color:yellow;
+    text-decoration: line-through;
+}
+#text-firstoooo{font-weight: bold;
+   font-style: Times New Roman;
+   color: white;
+   text-decoration:underline;
+}
+.yesterday-item:hover{
+    background-color: rgb(235, 165, 165) !important;
+}
