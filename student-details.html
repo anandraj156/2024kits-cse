@@ -8,25 +8,25 @@
 </head>
 <body>
     <div class="container">
-        <form>
+        <form method="post" action="student-process.jsp">
             <div class="form-group">
                <label for="name">Student Name</label>
-               <input type="text" id="name" class="form-control" required/>
+               <input type="text" id="name" name="student_name" class="form-control" required autofocus/>
             </div>
             <div class="form-group">
                 <label for="email_id">Student Email</label>
-                <input type="email" id="email_id" class="form-control" required/>
+                <input type="email" id="email_id" name="student_email" class="form-control" required autofocus/>
              </div>
              <div class="form-group">
                 <label for="Marks">Student Marks</label>
-                <input type="number" id="number" class="form-control" min="0" max="100" required/> 
+                <input type="number" id="number" name="student_marks" class="form-control" min="0" max="100" required autofocus/> 
              </div>
              <div class="form-group">
                 <label for="Date_of_Birth">Date Of Birth</label>
-                <input type="date" id="Date_of_Birth" class="form-control" required/>
+                <input type="date" id="Date_of_Birth" name="student_dob"class="form-control" required autofocus/>
              </div>
 
-             <button type="button" class="btn btn-success">Submit</button>
+             <button type="submit" class="btn btn-success">Submit</button>
         </form>
     </div>
     
