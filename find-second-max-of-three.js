@@ -1,6 +1,6 @@
 let first = 10 
-let second = 20
-let third = 30
+let second = 10
+let third = 20
 
 let max;
 if(first>second && first>third && second>third)
