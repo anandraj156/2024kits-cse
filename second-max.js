@@ -1,6 +1,6 @@
 let first = {name: 'John', age:100},  //first  , second , third are the objects
-    second = {name: 'John', age:500}, 
-    third = {name: 'John', age:30};
+    second = {name: 'John', age:200}, 
+    third = {name: 'John', age:240};
 
 
 
