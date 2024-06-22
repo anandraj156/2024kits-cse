@@ -1,0 +1,23 @@
+RDBMS
+    SQL
+    Vendors: MySql, Sqlserver, Oracle ,Postgres, sqlite
+    database
+        table(fixed columns/schema,constraints)
+            row
+        relation 
+            constraints
+                primary key,foreign key
+                unique key,not null,check
+    order_bills:id,bill_number,date,amount,tax_amount,net_amount
+    order_items:id,
+mongo db - noSql
+    database
+        collection
+            document
+    data models:
+        1. hierarchicalmodel
+        2. referential / normalized / relational data model
+
+    hierarchical data model
+        
+  
